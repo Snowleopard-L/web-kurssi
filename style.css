@@ -1,22 +1,130 @@
-body{
-    background-color:#f7f3e8;
-    background-image:url('snow_leopard_1920x1080.png');
 
-    height: 100%;
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    
+* {
+    box-sizing: border-box;
 }
-#ilmoitus{
-    font-size: large;
-    margin-bottom: 0px;
+
+body {
+    margin: 0;
+    background-color: #f7f3e8;
+    color: #1f3d2b;
+    font-family:sans-serif;
+}
+
+header {
+    background-color: #1f3d2b;
     color: #f7f3e8;
-    font-family: "Comic Sans MS";
+    padding: 25px;
+    text-align: center;
 }
-form label {
-color: #f7f3e8;
-font-family: "Comic Sans MS";
 
+header h1 {
+    margin: 0 0 20px;
+    font-size: 32px;
+    letter-spacing: 3px;
 }
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.top-right-img {
+  position: absolute;
+  top: 10px;
+  left: 10px; 
+  width: 150px; 
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #f7f3e8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c8902e;
+}
+
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #1f3d2b;
+    border-bottom: 3px solid #c8902e;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #1f3d2b;
+    color: #f7f3e8;
+}
+
+td, th {
+    padding: 14px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Lomake */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 450px;
+}
+
+form input, form select {
+    padding: 12px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #1f3d2b;
+    color: #f7f3e8;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #c8902e;
+    color: #1f3d2b;
+}
+
+/* Alatunniste */
+
+footer {
+    background-color: #1f3d2b;
+    color: #f7f3e8;
+    text-align: center;
+    padding: 20px;
+}
+
