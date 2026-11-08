@@ -14,12 +14,13 @@
     <header>
         <h1>LAPUAN LEPAKOT</h1>
 
-        <nav>
-            <a href="#ottelut">Ottelut</a>
-            <a href="#tulokset">Tulokset</a>
-            <a href="#harjoitukset">Harjoitukset</a>
-            <a href="#ilmoittautuminen">Tule mukaan</a>
-        </nav>
+<nav>
+    <a href="index.html">Etusivu</a>
+    <a href="ottelut.html">Ottelut</a>
+    <a href="tulokset.html">Tulokset</a>
+    <a href="harjoitus.html">Harjoitukset</a>
+</nav>
+
         <div class="container">
     <img src="snow_leopard_1920x1080.png" alt="Description" class="top-left-img">
     </div>
@@ -35,79 +36,8 @@
             </p>
         </section>
 
-        <section id="ottelut">
-            <h2>Tulevat ottelut</h2>
 
-            <table>
-                <tr>
-                    <th>Päivämäärä</th>
-                    <th>Joukkue</th>
-                    <th>Vastustaja</th>
-                    <th>Paikka</th>
-                </tr>
-
-                <tr>
-                    <td>15.11.2026</td>
-                    <td>Miehet</td>
-                    <td>Seinäjoki SB</td>
-                    <td>Lapua</td>
-                </tr>
-
-                <tr>
-                    <td>21.11.2026</td>
-                    <td>Naiset</td>
-                    <td>Esimerkkijoukkue</td>
-                    <td>Seinäjoki</td>
-                </tr>
-            </table>
-        </section>
-        <section id="tulokset">
-            <h2>Viimeisimmät tulokset</h2>
-
-            <p>Miehet: Lapuan Lepakot 5–3 Härmän kullinkiristäjät</p>
-            <p>Naiset: Lapuan Lepakot 2–4 Lapuan laudanlitistäjät</p>
-        </section>
-        <section id="harjoitukset">
-            <h2>Harjoitusajat</h2>
-
-            <p><strong>Juniorit:</strong> Tiistaisin klo 17:00–18:30</p>
-            <p><strong>Miehet:</strong> Keskiviikkoisin klo 19:00–20:30</p>
-            <p><strong>Naiset:</strong> Torstaisin klo 18:00–19:30</p>
-        </section>
         
-        <section id="ilmoittautuminen">
-            <h2>Tule mukaan kokeilemaan!</h2>
-
-            <p>
-                Ilmoittaudu maksuttomaan kokeiluharjoitukseen.
-                Aikaisempaa kokemusta ei tarvita!
-            </p>
-            
-            <form id="ilmoittautumislomake" onsubmit="return process()">
-                
-                <label for="fname">Etunimi:</label>
-                <input type="text" id="fname" name="fname" required>
-
-                <label for="lname">Sukunimi:</label>
-                <input type="text" id="lname" name="lname" required>
-
-                <label for="email">Sähköposti:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="joukkue">Mihin joukkueeseen haluat?</label>
-                <select id="joukkue" name="joukkue" required>
-                    <option value="">Valitse joukkue</option>
-                    <option value="juniorit">Juniorit</option>
-                    <option value="miehet">Miehet</option>
-                    <option value="naiset">Naiset</option>
-                </select>
-
-                <button type="submit">Ilmoittaudu</button>
-                <div id="message"></div>
-                <p id="lomakeviesti"></p>
-
-            </form>
-        </section>
     </main>
     <footer>
         <p>Lapuan Lepakot ry © 2026</p>
