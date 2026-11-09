@@ -87,8 +87,6 @@ td, th {
     border: 1px solid #ddd;
 }
 
-/* Lomake */
-
 form {
     display: flex;
     flex-direction: column;
@@ -118,8 +116,6 @@ form button:hover {
     background-color: #c8902e;
     color: #1f3d2b;
 }
-
-/* Alatunniste */
 
 footer {
     background-color: #1f3d2b;
