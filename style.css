@@ -27,11 +27,11 @@ header h1 {
   width: 100%;
 }
 
-.top-right-img {
+.top-left-img {
   position: absolute;
-  top: 10px;
-  left: 10px; 
-  width: 150px; 
+  top: -130px;
+  left: 1px; 
+  width: 50px; 
 }
 
 nav {
@@ -116,10 +116,6 @@ form button:hover {
     background-color: #c8902e;
     color: #1f3d2b;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 7afda9e71705b6bae6e7ef042e563a76563d11e8
 footer {
     background-color: #1f3d2b;
     color: #f7f3e8;
