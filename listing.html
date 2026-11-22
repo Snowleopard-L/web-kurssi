@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harjoitukset- Lapuan Lepakot</title>
     <link rel="stylesheet" href="style.css">
-    <script src="form.js"></script>
+    <script src="form.js" defer></script>
 </head>
 
 <body>
@@ -25,10 +25,9 @@
     <main>
 <section id="harjoitukset">
             <h2>Harjoitusajat</h2>
-
-            <p><strong>Juniorit:</strong> Tiistaisin klo 17:00–18:30</p>
-            <p><strong>Miehet:</strong> Keskiviikkoisin klo 19:00–20:30</p>
-            <p><strong>Naiset:</strong> Torstaisin klo 18:00–19:30</p>
+            <label for="haku">Hae harjoitusta:</label>
+            <input type="text" id="haku" placeholder="Kirjoita joukkueen nimi..">
+            <div id="harjoituslista"></div>
         </section>
         
         <section id="ilmoittautuminen">
