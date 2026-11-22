@@ -29,6 +29,13 @@ header h1 {
     font-size: 32px;
     letter-spacing: 3px;
 }
+
+#message.virhe {
+    color: red;
+}
+#message.onnistui {
+    color: #1f3d2b;
+}
 .container {
   position: relative;
   width: 100%;

@@ -38,8 +38,12 @@
                 Ilmoittaudu maksuttomaan kokeiluharjoitukseen.
                 Aikaisempaa kokemusta ei tarvita!
             </p>
-            
-            <form id="ilmoittautumislomake" onsubmit="return process()">
+            <button type ="button" popovertarget="info">lisätietoa kokeilusta</button>
+            <div id="info" popover>
+                <p>Ensimmäinen kokeiluharjoitus on maksuton</p>
+            </div>
+
+            <form id="ilmoittautumislomake" novalidate>
                 
                 <label for="fname">Etunimi:</label>
                 <input type="text" id="fname" name="fname" required>
@@ -60,7 +64,6 @@
 
                 <button type="submit">Ilmoittaudu</button>
                 <div id="message"></div>
-                <p id="lomakeviesti"></p>
 
             </form>
         </section>
