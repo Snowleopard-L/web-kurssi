@@ -16,9 +16,18 @@ let harjoitukset = [
     }
 ];
 let lista = document.getElementById("harjoituslista");
+let tila = document.getElementById("tila");
 
 function naytaLista(taulukko) {
     lista.innerHTML = "";
+    tila.textContent = "Näytetään " + taulukko.length + " / " + harjoitukset.length;
+    
+    if (taulukko.length === 0) {
+        let p = document.createElement("p");
+        p.textContent = "Ei tuloksia.";
+        lista.appendChild(p);
+    }
+
 
     taulukko.forEach(function(harjoitus){
         let p = document.createElement("p");
